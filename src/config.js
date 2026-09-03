@@ -1,8 +1,6 @@
 // Configuration for LifeLine
-// IMPORTANT: We now use environment variables for security! 
-// Locally: Put your key in the .env file.
-// Vercel: Put your key in the Vercel Dashboard Environment Variables.
-export const GEMINI_API_KEY = "AIzaSyAWKQ_0nGqwCDzVZqmzk8Xb8EwUgtWtaIM";
+// Environment variable mapping for security
+export const GEMINI_API_KEY = import.meta.env.VITE_GEMINI_API_KEY || '';
 
 export const GEMINI_API_URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent";
 
