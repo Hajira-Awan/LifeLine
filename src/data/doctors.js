@@ -1,0 +1,122 @@
+export const doctors = [
+  {
+    id: 1,
+    name: "Dr. Sarah Jenkins",
+    specialty: "Cardiologist",
+    experience: "15+ years",
+    location: "New York, NY",
+    rating: 4.9,
+    reviews: 124,
+    photo: "https://ui-avatars.com/api/?name=Sarah+Jenkins&background=0EA5E9&color=fff&size=200",
+    availableSlots: ["09:00 AM", "11:30 AM", "02:00 PM"],
+    bio: "Dr. Jenkins is a board-certified cardiologist specializing in preventive cardiology and heart failure. She is dedicated to providing compassionate and comprehensive care to her patients."
+  },
+  {
+    id: 2,
+    name: "Dr. Michael Chen",
+    specialty: "Neurologist",
+    experience: "10+ years",
+    location: "San Francisco, CA",
+    rating: 4.8,
+    reviews: 98,
+    photo: "https://ui-avatars.com/api/?name=Michael+Chen&background=6366F1&color=fff&size=200",
+    availableSlots: ["10:00 AM", "01:00 PM", "04:30 PM"],
+    bio: "Dr. Chen is an expert in treating neurological disorders, including migraines, epilepsy, and Parkinson's disease. He utilizes the latest advancements in neurology for his patients."
+  },
+  {
+    id: 3,
+    name: "Dr. Emily Rodriguez",
+    specialty: "Dermatologist",
+    experience: "8 years",
+    location: "Miami, FL",
+    rating: 4.7,
+    reviews: 156,
+    photo: "https://ui-avatars.com/api/?name=Emily+Rodriguez&background=10B981&color=fff&size=200",
+    availableSlots: ["09:30 AM", "12:00 PM", "03:00 PM"],
+    bio: "Dr. Rodriguez specializes in medical and cosmetic dermatology. She is passionate about helping patients achieve healthy, glowing skin."
+  },
+  {
+    id: 4,
+    name: "Dr. James Wilson",
+    specialty: "Pediatrician",
+    experience: "20 years",
+    location: "Chicago, IL",
+    rating: 4.9,
+    reviews: 210,
+    photo: "https://ui-avatars.com/api/?name=James+Wilson&background=F59E0B&color=fff&size=200",
+    availableSlots: ["08:00 AM", "10:30 AM", "02:30 PM"],
+    bio: "Dr. Wilson has dedicated his life to child healthcare. He provides comprehensive care from infancy through adolescence, ensuring healthy development."
+  },
+  {
+    id: 5,
+    name: "Dr. Olivia Taylor",
+    specialty: "Psychiatrist",
+    experience: "12 years",
+    location: "Austin, TX",
+    rating: 4.8,
+    reviews: 85,
+    photo: "https://ui-avatars.com/api/?name=Olivia+Taylor&background=8B5CF6&color=fff&size=200",
+    availableSlots: ["11:00 AM", "02:00 PM", "05:00 PM"],
+    bio: "Dr. Taylor is a compassionate psychiatrist focused on mental wellness. She specializes in anxiety, depression, and cognitive behavioral therapy."
+  },
+  {
+    id: 6,
+    name: "Dr. William Davis",
+    specialty: "Orthopedic",
+    experience: "18 years",
+    location: "Seattle, WA",
+    rating: 4.6,
+    reviews: 112,
+    photo: "https://ui-avatars.com/api/?name=William+Davis&background=3B82F6&color=fff&size=200",
+    availableSlots: ["09:00 AM", "01:30 PM"],
+    bio: "Dr. Davis is a renowned orthopedic surgeon specializing in joint replacement and sports injuries. He aims to restore mobility and quality of life."
+  },
+  {
+    id: 7,
+    name: "Dr. Sophia Martinez",
+    specialty: "Gynecologist",
+    experience: "14 years",
+    location: "Los Angeles, CA",
+    rating: 4.9,
+    reviews: 180,
+    photo: "https://ui-avatars.com/api/?name=Sophia+Martinez&background=EC4899&color=fff&size=200",
+    availableSlots: ["10:00 AM", "12:30 PM", "03:30 PM"],
+    bio: "Dr. Martinez provides exceptional women's healthcare, including obstetrics and gynecological surgeries, with a patient-first approach."
+  },
+  {
+    id: 8,
+    name: "Dr. Benjamin Lee",
+    specialty: "Ophthalmologist",
+    experience: "9 years",
+    location: "Boston, MA",
+    rating: 4.7,
+    reviews: 95,
+    photo: "https://ui-avatars.com/api/?name=Benjamin+Lee&background=14B8A6&color=fff&size=200",
+    availableSlots: ["08:30 AM", "11:00 AM", "04:00 PM"],
+    bio: "Dr. Lee specializes in comprehensive eye care, vision correction, and treating ocular diseases with state-of-the-art technology."
+  },
+  {
+    id: 9,
+    name: "Dr. Ava Patel",
+    specialty: "General Physician",
+    experience: "6 years",
+    location: "Denver, CO",
+    rating: 4.8,
+    reviews: 130,
+    photo: "https://ui-avatars.com/api/?name=Ava+Patel&background=F43F5E&color=fff&size=200",
+    availableSlots: ["09:00 AM", "11:00 AM", "01:00 PM", "03:00 PM"],
+    bio: "Dr. Patel is a highly skilled general practitioner focusing on holistic health, preventive care, and managing chronic conditions."
+  },
+  {
+    id: 10,
+    name: "Dr. Ethan Wright",
+    specialty: "ENT Specialist",
+    experience: "11 years",
+    location: "Atlanta, GA",
+    rating: 4.6,
+    reviews: 75,
+    photo: "https://ui-avatars.com/api/?name=Ethan+Wright&background=64748B&color=fff&size=200",
+    availableSlots: ["10:30 AM", "02:30 PM"],
+    bio: "Dr. Wright treats disorders of the ear, nose, and throat. He is known for his minimally invasive surgical techniques and accurate diagnoses."
+  }
+];
